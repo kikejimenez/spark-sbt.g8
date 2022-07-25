@@ -1,13 +1,12 @@
 # spark-sbt.g8
 
-A [Giter8](https://github.com/foundweekends/giter8) template for Spark SBT applications.
+A [Giter8](https://github.com/foundweekends/giter8) template for Spark SBT applications using Scala 3.
 
 ## Usage
 
-1. Install SBT with [SDKMAN](https://mungingdata.com/java/sdkman-multiple-versions-java-sbt-scala/)
-   or use the docker image [ejimenezr/giter8](https://hub.docker.com/repository/docker/ejimenezr/giter8)
+1. Use the docker image [ejimenezr/giter8](https://hub.docker.com/repository/docker/ejimenezr/giter8)
 
-2. Start the app generation wizard: `sbt new https://gitlab.com/kikeramos/spark-sbt.g8`
+2. Start the app generation wizard: `g8 https://gitlab.com/kikeramos/spark-sbt.g8`
 
 3. Fill out the project properties on the command line
 
@@ -33,6 +32,7 @@ We'll always try to keep this updated with the latest version of Spark and Scala
 ## References
 - [Giter8 documentation](http://www.foundweekends.org/giter8/)
 - [MrPowers Spark SBT with g8](https://github.com/MrPowers/spark-sbt.g8)
+- [Using Scala 3 with Spark](https://www.47deg.com/blog/using-scala-3-with-spark/)
 
 ## Template license
 ----------------
