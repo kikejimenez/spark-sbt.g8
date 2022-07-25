@@ -7,7 +7,7 @@ A [Giter8](https://github.com/foundweekends/giter8) template for Spark SBT appli
 1. Install SBT with [SDKMAN](https://mungingdata.com/java/sdkman-multiple-versions-java-sbt-scala/)
    or use the docker image [ejimenezr/giter8](https://hub.docker.com/repository/docker/ejimenezr/giter8)
 
-2. Start the app generation wizard: `sbt new ejimenezr/spark-sbt.g8`
+2. Start the app generation wizard: `sbt new https://gitlab.com/kikeramos/spark-sbt.g8`
 
 3. Fill out the project properties on the command line
 
